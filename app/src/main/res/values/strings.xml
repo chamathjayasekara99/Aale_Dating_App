@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Aale_Dating_App</string>
+    <string name="app_copyright" translatable="true">"©️ 2022 CodeArt Inc. "</string>
+    <string name="forgot_pass">forgot your password? click here</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="user_name_txt">User Name</string>
+    <string name="password_txt">Password</string>
 </resources>
