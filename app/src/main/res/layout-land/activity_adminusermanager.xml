@@ -9,7 +9,7 @@
     <TableLayout
         android:id="@+id/tablelayout_1"
         android:layout_width="649dp"
-        android:layout_height="270dp"
+        android:layout_height="253dp"
         android:layout_marginBottom="48dp"
         android:background="@drawable/table_border"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,58 +23,58 @@
             android:background="@drawable/border">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="4"
+                android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="@string/user_col1"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="10sp" />
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="91dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="4"
+                android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="@string/user_col2"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="10sp" />
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="82dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="4"
+                android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="@string/user_col3"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="10sp" />
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="76dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="4"
+                android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="@string/user_col4"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="10sp" />
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="146dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="4"
+                android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="@string/user_col5"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="10sp" />
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="185dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="5"
+                android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="@string/user_col6"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="10sp" />
 
 
         </TableRow>
@@ -84,22 +84,354 @@
             android:background="@drawable/border">
 
             <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/dumycol1"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="5"
+
+                android:gravity="center_horizontal"
+
                 android:padding="10sp"
-                android:text="@string/user_col6"
+                android:text="@string/dumycol2"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+
+                android:text="@string/dumycol3"
+
+                android:textColor="@color/black"
+                android:textSize="7sp" />
+
+            <ImageView
+                android:layout_width="36dp"
+
+
+                android:layout_height="match_parent"
+                android:src="@drawable/eclipse" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/g_8738" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/admin_actions" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="34dp"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/dumycol1"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+
+                android:padding="10sp"
+                android:text="@string/dumycol2"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+
+                android:text="@string/dumycol3"
+
+                android:textColor="@color/black"
+                android:textSize="7sp" />
+
+            <ImageView
+                android:layout_width="36dp"
+
+
+                android:layout_height="match_parent"
+                android:src="@drawable/eclipse" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/g_8738" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/admin_actions" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="34dp"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/dumycol1"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+
+                android:padding="10sp"
+                android:text="@string/dumycol2"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+
+                android:text="@string/dumycol3"
+
+                android:textColor="@color/black"
+                android:textSize="7sp" />
+
+            <ImageView
+                android:layout_width="36dp"
+
+
+                android:layout_height="match_parent"
+                android:src="@drawable/eclipse" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/g_8738" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/admin_actions" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="34dp"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/dumycol1"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+
+                android:padding="10sp"
+                android:text="@string/dumycol2"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+
+                android:text="@string/dumycol3"
+
+                android:textColor="@color/black"
+                android:textSize="7sp" />
+
+            <ImageView
+                android:layout_width="36dp"
+
+
+                android:layout_height="match_parent"
+                android:src="@drawable/eclipse" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/g_8738" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/admin_actions" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="34dp"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/dumycol1"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+
+                android:padding="10sp"
+                android:text="@string/dumycol2"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+
+                android:text="@string/dumycol3"
+
+                android:textColor="@color/black"
+                android:textSize="7sp" />
+
+            <ImageView
+                android:layout_width="36dp"
+
+
+                android:layout_height="match_parent"
+                android:src="@drawable/eclipse" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/g_8738" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/admin_actions" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="34dp"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/dumycol1"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+
+                android:padding="10sp"
+                android:text="@string/dumycol2"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+
+                android:text="@string/dumycol3"
+
+                android:textColor="@color/black"
+                android:textSize="7sp" />
+
+            <ImageView
+                android:layout_width="36dp"
+
+
+                android:layout_height="match_parent"
+                android:src="@drawable/eclipse" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/g_8738" />
+
+            <ImageView
+                android:layout_height="match_parent"
+
+
+                android:src="@drawable/admin_actions" />
+
+
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+
+
+
     </TableLayout>
 
     <Button
@@ -127,7 +459,6 @@
         android:layout_width="110dp"
         android:layout_height="35dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="350dp"
         android:layout_marginBottom="8dp"
         android:text="@string/ui_type"
@@ -151,18 +482,17 @@
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="520dp"
-        android:layout_marginBottom="8dp"
 
+        android:layout_marginBottom="8dp"
         android:drawableLeft="@drawable/ic_baseline_arrow_back_ios_24"
         android:text="@string/custom_backbutton"
         android:textColor="@color/black"
         app:backgroundTint="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

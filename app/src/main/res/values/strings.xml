@@ -16,4 +16,8 @@
     <string name="user_col4">Profile Pic</string>
     <string name="user_col5">Photos</string>
     <string name="user_col6">Actions</string>
+    <string name="dumycol1">Dani</string>
+    <string name="dumycol2">Pearson</string>
+    <string name="dumycol3">abc@gmail.com</string>
+
 </resources>
