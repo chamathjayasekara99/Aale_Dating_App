@@ -6,4 +6,14 @@
     <string name="btn_signup">Sign Up</string>
     <string name="user_name_txt">User Name</string>
     <string name="password_txt">Password</string>
+    <string name="ui_type">Users</string>
+    <string name="custom_backbutton">Back</string>
+    <string name="add_usersbtn">Add New User</string>
+
+    <string name="user_col1">First Name</string>
+    <string name="user_col2">Last Name</string>
+    <string name="user_col3">E-mail</string>
+    <string name="user_col4">Profile Pic</string>
+    <string name="user_col5">Photos</string>
+    <string name="user_col6">Actions</string>
 </resources>
