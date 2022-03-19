@@ -8,8 +8,8 @@
 
     <TableLayout
         android:id="@+id/tablelayout_1"
-        android:layout_width="591dp"
-        android:layout_height="261dp"
+        android:layout_width="641dp"
+        android:layout_height="257dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/table_border"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,9 +23,60 @@
             android:layout_height="34dp"
             android:background="@drawable/border">
 
-            <TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="@string/user_col1"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
-            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="@string/user_col2"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="@string/user_col3"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="@string/user_col4"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:text="@string/user_col5"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="10sp"
+                android:text="@string/user_col6"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
 
         </TableRow>
 
@@ -47,22 +98,22 @@
         android:layout_width="141dp"
         android:layout_height="36dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="4dp"
-        android:background="@drawable/button_styles"
+        android:layout_marginBottom="8dp"
 
+        android:background="@drawable/button_styles"
         android:text="@string/add_usersbtn"
         android:textSize="14sp"
         app:backgroundTint="@color/app_theme"
         app:layout_constraintBottom_toTopOf="@+id/tablelayout_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toEndOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="110dp"
         android:layout_height="35dp"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="44dp"
         android:layout_marginTop="36dp"
         android:text="@string/ui_type"
         android:textSize="25sp"
